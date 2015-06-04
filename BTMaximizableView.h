@@ -47,5 +47,5 @@ IB_DESIGNABLE
 /* Toggle Function: If using Interface Builder, only function you'll really
  * need
  */
-- (void)toggleMaxMin;
+- (IBAction)toggleMaxMin;
 @end

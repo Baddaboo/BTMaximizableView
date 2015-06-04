@@ -57,12 +57,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="byk-AX-1Mo">
                                         <rect key="frame" x="8" y="63" width="208" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Maximize">
+                                        <state key="normal" title="Grow/Shrink">
                                             <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="button2Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6ad-pI-ImL"/>
+                                            <action selector="toggleMaxMin" destination="SEG-nq-tbz" eventType="touchUpInside" id="aeE-cR-8BQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -78,7 +78,6 @@
                     </view>
                     <connections>
                         <outlet property="button" destination="rsk-ML-gBi" id="UPP-uV-1qf"/>
-                        <outlet property="button2" destination="byk-AX-1Mo" id="cT0-in-ohy"/>
                         <outlet property="maximizableView" destination="1iC-SX-C1b" id="pTv-04-ype"/>
                         <outlet property="maximizableView2" destination="SEG-nq-tbz" id="71b-fr-ZXe"/>
                     </connections>

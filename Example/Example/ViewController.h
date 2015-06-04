@@ -13,8 +13,6 @@
 @property (strong, nonatomic) IBOutlet BTMaximizableView *maximizableView;
 @property (strong, nonatomic) IBOutlet BTMaximizableView *maximizableView2;
 @property (strong, nonatomic) IBOutlet UIButton *button;
-@property (strong, nonatomic) IBOutlet UIButton *button2;
 - (IBAction)buttonPressed:(id)sender;
-- (IBAction)button2Pressed:(id)sender;
 @end
 

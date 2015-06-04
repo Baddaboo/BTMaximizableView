@@ -29,8 +29,4 @@
     [self.button setTitle:self.maximizableView.isMaximized?@"Maximize":@"Minimize" forState:UIControlStateNormal];
 }
 
-- (IBAction)button2Pressed:(id)sender {
-    [self.maximizableView2 toggleMaxMin];
-    [self.button2 setTitle:self.maximizableView2.isMaximized?@"Maximize":@"Minimize" forState:UIControlStateNormal];
-}
 @end
