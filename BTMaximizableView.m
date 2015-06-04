@@ -10,7 +10,6 @@
 
 @interface BTMaximizableView ()
 @property (nonatomic, retain) UIView *containerView;
-@property (nonatomic, retain) UIView *oldView;
 @property (nonatomic, retain) UIView *statusBarView;
 @property (nonatomic) BOOL statusBarIsDark;
 @property (nonatomic) CGPoint pointInFill;
@@ -177,6 +176,10 @@
         tempView = tempView.superview;
     }
     return point;
+}
+- (void)setFrame:(CGRect)frame{
+    [super setFrame:frame];
+    [self.containerView setFrame:self.bounds];
 }
 - (void)drawRect:(CGRect)rect{
     [super drawRect:rect];
