@@ -17,8 +17,8 @@ Make sure that `UIViewControllerBasedStatusBarAppearance` is set to `NO` in your
 5. Add the following to the diesired view controller header: `#import "BTMaximizableView.h"`
 6. Using the Assistant Editor, hold down control and add references to the maximizable view and the trigger (typically, a button IBAction)
 7. Call the `toggleMaxMin` function wherever you would like to invoke maximizing or minimizing the view
-⋅⋅* To have the status bar automatically change depending on the background color of your maximizable view:
-8. Open your info.plist file and create a new key called `View controller-based status bar appearance` and set the value to ``NO``
+
+* To have the status bar automatically change depending on the background color of your maximizable view, open your info.plist file and create a new key called `View controller-based status bar appearance` and set the value to ``NO``
 
 
 ## TODO
