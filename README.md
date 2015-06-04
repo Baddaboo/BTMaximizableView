@@ -1,7 +1,7 @@
 # BTMaximizableView
 A simple maximizable iOS view, with Interface Builder integration
 
-![alt text](http://i.imgur.com/i7cNK8T.gif)
+![alt text](http://gifyu.com/images/2015-06-0317_00_08.gif)
 
 ## Installation
 Simply add the BTMaximizableView Objective-C class into an existing project. Views can be generated programatically, or through Interface Builder and configured accordingly.
