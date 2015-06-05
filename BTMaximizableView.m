@@ -145,7 +145,7 @@
     [self.containerView.layer setCornerRadius:self.cornerRadius];
     [[UIApplication sharedApplication] setStatusBarStyle:self.statusBarIsDark?UIStatusBarStyleDefault:UIStatusBarStyleLightContent animated:YES];
     [UIView animateWithDuration:self.animationDuration delay:0.0f usingSpringWithDamping:self.springCoef initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        [self.containerView setFrame:self.frame];
+        [self.containerView setFrame:CGRectMake(self.pointInFill.x, self.pointInFill.y, self.frame.size.width, self.frame.size.height)];
         [self.statusBarView setAlpha:0.0f];
     } completion:^(BOOL finished) {
         [self.layer setShadowOpacity:self.shadowOpacity];
