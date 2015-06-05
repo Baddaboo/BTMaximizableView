@@ -179,6 +179,7 @@
 }
 - (void)setFrame:(CGRect)frame{
     [super setFrame:frame];
+    [self.layer setShadowPath:[[UIBezierPath bezierPathWithRoundedRect:self.layer.bounds cornerRadius:self.cornerRadius] CGPath]];
     [self.containerView setFrame:self.bounds];
 }
 - (void)drawRect:(CGRect)rect{
