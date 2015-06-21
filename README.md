@@ -21,8 +21,7 @@ Make sure that `UIViewControllerBasedStatusBarAppearance` is set to `NO` in your
 
 
 ## TODO
-* Adding card layout support ;)
-* Support for screen rotation
+* Support for screen rotation without total redraw
 * Bug fixes
 
 ## License
